@@ -40,7 +40,7 @@ const displayAleart = message =>{
     div.classList.add('alert-success');
     div.style.display = 'block';
     div.innerHTML = `
-    <h4 class="alert-heading">${message.email}</h4>
+    <h4 class="alert-heading">Email:---${message.email}</h4>
     `;
     alertBox.appendChild(div);
 }
